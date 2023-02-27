@@ -10,8 +10,6 @@ import (
 	"github.com/scopesv/todoGrpc/api/internal/application/api"
 )
 
-//application -> service -> http server
-
 func init() {
 	godotenv.Load()
 }
